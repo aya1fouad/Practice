@@ -1,0 +1,34 @@
+
+.carousel .slide img{
+justify-items: center;
+object-fit: cover;
+
+}
+.card{
+    border-radius: 20%;
+    display :inline-block;
+
+}
+.card img{
+    border-radius: 20%;
+}
+.carousel-inner img{
+    border-radius: 2%;
+}
+.form-group{
+    background: rgb(147, 165, 204);
+}
+
+.ull {
+    display: flex;
+    /* align-items: center; */
+    /* justify-content: center; */
+    justify-content: space-around;
+    background: rgb(25, 25, 41);
+}
+.pagination{
+    display: flex;
+    justify-content: center;
+    background: rgb(25, 25, 41);    
+}
+

@@ -1,0 +1,86 @@
+* {
+    font-family: 'Courier New', Courier, monospace;
+    margin: 0;
+    padding: 0;
+}
+#container {
+    background-color: gainsboro;
+    display: flex;
+    gap: 20px;
+    height: 100%;
+    width: 70%;
+    margin: auto;
+    margin-top: 60px;
+    border-radius: 7px;
+    padding: 15px;
+}
+h2 {
+    font-size: 30px;
+}
+#container #child {
+    color: rgb(175, 180, 185);
+    background-color: rgb(20, 52, 141);
+    display:flex;
+    flex-direction:column;
+    justify-content:space-between;
+    flex-basis: 250px;
+    flex-grow: 1; 
+    border-radius: 3px;
+    padding: 5px;
+}
+#container #child2 {
+    color: gray;
+    background-color: white;
+    display: grid;
+   
+    grid-gap: 10px;
+    flex-grow: 8;
+    border-radius: 3px;
+    padding: 20px 10px 10px 10px;
+}
+#name {
+    grid-area: fname;
+}
+#email {
+    grid-area: email;
+}
+#comment {
+    grid-area: comment;
+    margin-top: 10px;
+}
+textarea {
+    height: 200px;
+}
+textarea, input {
+    width: 100%;
+    border: none;
+    box-shadow: 3px 3px 10px grey;
+    resize: none;
+}
+input {
+    padding: 5px;
+    box-sizing: border-box;
+}
+button {
+    grid-area: btn;
+}
+label {
+    display: block;
+}
+button {
+    background-color: rgb(20, 52, 141);
+    padding: 10px;
+    border-radius: 3px;
+    color: white;
+}
+.burger-icon {
+    display: none;
+}
+@media screen and (max-width: 600px) {
+    .burger-icon {
+        display: block;
+    }
+    #container #child {
+        display: none;
+    }
+}
