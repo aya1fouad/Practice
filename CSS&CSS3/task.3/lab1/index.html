@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            background-color: rgba(240, 234, 240, 0.541);
+        }
+        #mydiv {
+            margin: 0 auto;
+            width: 60%;
+            height: 100%;
+        }
+        #parent {
+            height: 100%;
+            display: flex;
+            justify-content: center;
+        }
+        #child {
+
+            margin: 30px;
+        }
+
+        #ele {
+            margin: 20px;
+            font-size: 40px;
+            color: rgb(92, 9, 3);
+            padding: 17px;
+            border: rgba(185, 177, 185, 0.541) solid 4px;
+            box-shadow: 0px 0px 0px 5px white;
+            border-radius: 50%;
+            background-color: white;
+        }
+
+        #ele:hover {
+            margin: 20px;
+            font-size: 40px;
+            color: white;
+            padding: 17px;
+            border: rgb(134, 31, 24) solid 4px;
+            box-shadow: 0px 0px 0px 5px rgb(134, 31, 24);
+            border-radius: 50%;
+            background-color: rgb(134, 31, 24);
+        }
+    </style>
+</head>
+
+<body>
+    <div id="mydiv">
+        <h1 style="text-align: center;">Features</h1>
+        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Reprehenderit, iste quisquam cum eum consequatur
+            enim
+            beatae eos non inventore soluta blanditiis animi voluptatum odit quo! </p>
+        <div id="parent">
+            <div id="child">
+                <table>
+                    <tr>
+                        <td> <i id="ele" class="fas fa-volume-down"></i> </td>
+                        <td>
+                            <h4>Volume</h4>
+                            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit.</p>
+                        </td>
+                    </tr>
+                </table>
+            </div>
+            
+            <div id="child">
+                <table>
+                    <tr>
+                        <td> <i id="ele" class="far fa-comments"></i>
+                        </td>
+                        <td>
+                            <h4>Comments</h4>
+                            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit.</p>
+                        </td>
+                    </tr>
+                </table>
+            </div>
+            <div id="child">
+                <table>
+                    <tr>
+                        <td> <i id="ele" class="fas fa-cloud-download-alt"></i>
+                        </td>
+                        <td>
+                            <h4>Cloud</h4>
+                            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit.</p>
+                        </td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+        <div id="parent">
+            <div id="child">
+                <table>
+                    <tr>
+                        <td> <i id="ele" class="fas fa-leaf"></i>
+                        </td>
+                        <td>
+                            <h4>Leaf</h4>
+                            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit.</p>
+                        </td>
+                    </tr>
+                </table>
+            </div>
+            <div id="child">
+                <table>
+                    <tr>
+                        <td> <i id="ele" class="fas fa-cogs"></i>
+                        </td>
+                        <td>
+                            <h4>Cogs</h4>
+                            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit.</p>
+                        </td>
+                    </tr>
+                </table>
+            </div>
+            <div id="child">
+                <table>
+                    <tr>
+                        <td> <i id="ele" class="fas fa-heart"></i>
+                        </td>
+                        <td>
+                            <h4>Heart</h4>
+                            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit.</p>
+                        </td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/js/all.min.js"></script>
+</body>
+
+</html>
