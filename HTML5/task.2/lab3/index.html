@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <style>
+        .hide {
+            display: none;
+            object-fit: cover;
+            width: 600px;
+            height: 600px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="hide">
+        <img id="scream" src="FB_IMG_1602248288256.jpg">
+
+    </div>
+
+    <canvas id="myCanvas" width="800" height="600" style="border:5px solid #d61919;">
+        Your browser does not support the HTML5 canvas tag.
+    </canvas>
+
+    <script>
+        window.onload = function () {
+            var c = document.getElementById("myCanvas");
+            var ctx = c.getContext("2d");
+            var img = document.getElementById("scream");
+            ctx.drawImage(img, 0, 0, 800, 600);
+
+            ctx.font = "40px verdana";
+            ctx.shadowColor = "red";
+            ctx.shadowBlur = 12;
+            ctx.lineWidth = 5;
+            ctx.strokeText("it's all right", 280, 50);
+            ctx.shadowBlur = 12;
+            ctx.fillStyle = "black";
+            ctx.fillText("it's all right", 280, 50);
+        }
+    </script>
+
+</body>
+
+</html>

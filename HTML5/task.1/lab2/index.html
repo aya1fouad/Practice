@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>RGB Slider</title>
+    <style>
+        input{
+            width: 500px ; 
+        }
+        span{
+            font-size: 24px;
+            font-weight: bold;
+        }
+    </style>
+</head>
+
+<body>
+        <div>
+            Red : <input type="range"  oninput="changeColor()" min="0" max="255" >
+        </div>
+        <br><br> 
+        <div>
+           Green : <input type="range" oninput="changeColor()" min="0" max="255" >
+        </div>
+        <br><br>
+        <div>
+           Blue : <input type="range" oninput="changeColor()" min="0"  max="255" >  
+        </div>
+        <br><br>
+        <div id="myDiv">Change the 3 Colors Ranges and observe my Color change</div>
+    
+
+    <script src="js.js"> </script>
+</body>
+
+</html>
