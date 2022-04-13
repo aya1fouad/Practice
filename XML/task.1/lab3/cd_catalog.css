@@ -1,0 +1,29 @@
+TITLE{
+	color: red;
+	font-size: 20px;
+}
+
+ARTIST{
+	color: blue;
+	font-size: 20px;
+}
+
+COUNTRY{
+	display:block;
+     font-size: 10px;
+}
+
+COMPANY{
+	display:block;
+    font-size: 10px;
+}
+
+PRICE{
+	display:block;
+    font-size: 10px;
+}
+
+YEAR{
+	display:block;
+    font-size: 10px;
+}

@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" elementFormDefault="qualified" attributeFormDefault="unqualified">
+	<xs:simpleType name="jobb">
+		<xs:restriction base="xs:string">
+			<xs:enumeration value="Accountant"/>
+			<xs:enumeration value="Engineer"/>
+		</xs:restriction>
+	</xs:simpleType>
+	<xs:simpleType name="sportt">
+		<xs:restriction base="xs:string">
+			<xs:enumeration value="tennis"/>
+			<xs:enumeration value="football"/>
+			<xs:enumeration value="handball"/>
+		</xs:restriction>
+	</xs:simpleType>
+	<xs:element name="family">
+		<xs:complexType>
+			<xs:sequence>
+				<xs:element name="grandfather">
+					<xs:complexType mixed="true">
+						<xs:sequence>
+							<xs:element name="father">
+								<xs:complexType mixed="true">
+									<xs:sequence>
+										<xs:element name="mother"/>
+										<xs:element name="daughter">
+											<xs:complexType mixed="true">
+												<xs:attribute name="age" type="xs:integer"/>
+												<xs:attribute name="job" type="jobb"/>
+											</xs:complexType>
+										</xs:element>
+										<xs:element name="son">
+											<xs:complexType mixed="true">
+												<xs:attribute name="age" type="xs:integer"/>
+												<xs:attribute name="sport" type="sportt"/>
+											</xs:complexType>
+										</xs:element>
+									</xs:sequence>
+									<xs:attribute name="job" type="jobb"/>
+								</xs:complexType>
+							</xs:element>
+							<xs:element name="uncle"/>
+							<xs:element name="aunt">
+								<xs:complexType mixed="true">
+									<xs:attribute name="son" type="xs:integer"/>
+								</xs:complexType>
+							</xs:element>
+						</xs:sequence>
+					</xs:complexType>
+				</xs:element>
+			</xs:sequence>
+		</xs:complexType>
+	</xs:element>
+</xs:schema>

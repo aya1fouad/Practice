@@ -1,0 +1,86 @@
+UNIVERSITY_NAME{
+	font-size : 50px;
+	font-weight: bold;
+    font-family: "Courier New", Courier, monospace;
+    text-align: center;
+	display: block;
+   margin: 3px;
+}
+
+DATE{
+    font-size: 20px;
+	border: 2px solid #8b0000;
+    width:100%;
+    hieght:10px;
+	color: red;
+    text-align: center;
+    display: block;
+  margin: 10px;
+}
+
+PRESIDENT{
+	font-size : 20px;
+	margin: 5px;
+	display: block;
+  margin: 10px;
+}
+
+TITLE{
+	font-size : 18px;
+	color: green;
+    display: block;
+  margin: 10px;
+}
+
+ONEOFFICER, ONEPROVOST{
+	display: block;
+}
+
+OFFICER_NAME, OFFICER_POSITION, PROVOST_NAME, PROVOST_POSITION{
+	color: blue;
+	font-size : 16px;
+	font-style: italic;
+    display: inline;
+}
+
+PROVOSTS{
+  border-bottom:2px solid black ;
+  display: block;
+  margin: 10px;
+}
+
+SCHOOLS TITLE{
+	font-size: 20px;
+	color:red;
+    text-align: center;
+	  margin: 10px;
+}
+
+ONESCHOOL{
+	font-size: 18px;
+	display: block;
+}
+
+THE_SCHOOL{
+	font-size: 20px;
+	color:red;
+    text-align: center;
+	display: block;
+}
+
+DEPARTMENT{
+	font-size: 18px;
+	border: 2px inset ;
+	margin-right : 0 px;
+    margin-left: 15px;
+	display: block;
+}
+
+DEPTNAME{
+    text-transform: uppercase;
+    display: block;
+}
+
+DEPTHEAD,MAJOR, MAJ_COURSES, MINOR, MIN_COURSES{
+  display: block;
+}

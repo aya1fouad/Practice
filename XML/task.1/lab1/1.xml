@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE family SYSTEM "D:\iti9\14.xml\day1\labs\lab1\1.dtd">
+<family>
+	<grandfather> mohamed
+		<father job="Engineer"> omar
+			<mother>sars</mother>
+			<daughter age="22" job="Accountant">mai</daughter>
+			<son age="26" sport="football">samy</son>
+		</father>
+		<uncle>ahmed</uncle>
+		<uncle>ali</uncle>
+		<aunt son="2">aya</aunt>
+	</grandfather>
+</family>
