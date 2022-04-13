@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html >
+<head>
+    <style>
+        body{
+           width: 500px;
+           margin: 0 auto;
+           background-color:rgb(173, 202, 9);
+           margin-top: 50px;
+        }
+    
+        span{
+            color:red;
+        }
+        th{
+          width: 100px;
+          color: #272727;
+          }
+        td{
+        padding: 5px;
+        color: #131010
+        
+         }
+         table, tr, th, td{
+         margin-top: 20px;
+         border: 1px solid;
+        
+          }
+          #submit{
+              margin-right: auto;
+              margin-right: 17px;
+          }
+    </style>
+</head>
+<body>
+    <form id="myform" name="myform" onsubmit="return false">
+        <label>Name: </label>
+        <input type="text" name="name" placeholder="enter name">
+        <span id="spanname"></span>
+        <br>
+        <label>Age: &nbsp;&nbsp;</label>
+        <input type="text" name="age" placeholder="enter age">
+        <span id="spanage"></span>
+        <br>
+        <label>Email: </label>
+        <input type="text" name="email" placeholder="enter email">
+        <span id="spanemail"></span>
+        <br>
+        <br>
+        <center><input type="submit" value="ADD" id="submit">
+            <input type="reset" value="RESET" id="reset"></center>
+    </form>
+    <br>
+    <hr>
+    <table>
+        <thead>
+            <tr>
+                <th>Name</th>
+                <th>Age</th>
+                <th>Email</th>
+            </tr>
+        </thead>
+        <tbody id="data">
+
+        </tbody>
+    </table>
+    <script src="javascript.js"></script>
+</body>
+</html>

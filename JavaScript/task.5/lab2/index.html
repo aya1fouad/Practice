@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html >
+<head>
+    <style>
+        p{
+            color: red;
+        }
+       div{
+           display: inline-table;
+       }
+    </style>
+</head>
+
+<body onload="timeover()">
+
+    <form name="myForm" onsubmit="return( validateForm(event))" method="GET">
+        <div>
+           <div>Name: <input type="text" name="fname" id="n"></div>   
+           <div><p id="para"></p></div>
+        </div>
+        <br>
+        <div>
+            <div>Age: <input type="text" name="age" id="a"></div>   
+            <div><p id="para1"></p></div>
+         </div>
+         <br>
+        <input type="submit" value="Submit" >
+      </form>
+    <script src="javascript.js"></script>
+</body>
+</html>

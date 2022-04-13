@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html >
+<head>
+    <style>
+        p {
+            color: red;
+        }
+        form {
+            width: 50%;
+        }
+        #buttonDiv {
+            margin-left: 30px;
+            padding: 5px;
+
+        }
+
+        table#myTable td {
+           
+            text-align: center;
+        }
+    </style>
+</head>
+
+<body>
+
+    <form  id="myForm" method="GET" action="info.html" >
+
+        <table id="inputTable">
+            <tr>
+                <td><b>Name:</b> </td>
+                <td><input type="text" name="fname" /></td>
+                <td>
+                    <p id="para"></p>
+                </td>
+            </tr>
+            <tr>
+                <td><b>Email:</b> </td>
+                <td><input type="email" name="email" /></td>
+                <td>
+                    <p id="para1"></p>
+                </td>
+            </tr>
+            <tr>
+                <td><b>Password:</b> </td>
+                <td><input type="password" name="Password" /></td>
+                <td>
+                    <p id="para2"></p>
+                </td>
+            </tr>
+            <tr>
+                <td><b>Jop Title:</b> </td>
+                <td><input type="text" name="Jop" /></td>
+                <td>
+                    <p id="para3"></p>
+                </td>
+            </tr>
+            <tr>
+                <td><b>Mobile:</b> </td>
+                <td><input type="text" name="Mobile" /></td>
+                <td>
+                    <p id="para4"></p>
+                </td>
+            </tr>
+            <tr>
+                <td><b>Gender:</b> </td>
+                <td><input type="radio" name="Gender" value="male" id="M"/> Male<br>
+                    <input type="radio" name="Gender" value="female" id="F" /> Female
+                </td>
+                <td>
+                    <p id="para5"></p>
+                </td>
+            </tr>
+            <tr>
+                <td><b>Adress:</b> </td>
+                <td><input type="text" name="Address" /></td>
+                <td>
+                    <p id="para6"></p>
+                </td>
+            </tr>
+            
+        </table>
+
+
+        <div id="buttonDiv">
+            <input type="submit" value="Register" id="submit">
+            <input type="reset" value="Reset" id="reset">
+        </div>
+
+
+    </form>
+
+    <script src="javascript.js"></script>
+
+
+</body>
+
+</html>

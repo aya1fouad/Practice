@@ -1,0 +1,35 @@
+<html>
+    <head>
+        <title>Slide show</title>
+        <style>
+            *{
+                margin: 0;
+                padding: 0;
+            }
+            #controls  , #slideshow{
+                text-align: center;
+                width: 500px;
+                height: 50px;
+                margin: 0 auto;
+                margin-top:20px ;
+            }
+            #img{
+                width: 500px;
+                height: 400px;
+            }
+        </style>
+    </head>
+    <body>
+        <div id="controls">
+            <button onclick="next()">Next</button>
+            <button onclick="start()">Slide Show</button>
+            <button onclick="stop()">Stop</button>
+            <button onclick="pervious()">Pervious</button>
+        </div>
+        <hr>
+        <div id="slideshow">
+            <img src="1.jpg" id="img">
+        </div>
+        <script src="javascript.js"></script>
+    </body>
+</html>
