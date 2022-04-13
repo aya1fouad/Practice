@@ -1,0 +1,41 @@
+.divv{
+    height: 100%;
+    width: 100%;  
+}
+
+
+#list{
+    width: 50%;
+    height: 100px;
+    padding: 0px;
+    margin: auto;
+    background-color: #000000;
+    border: 2px solid red;
+    
+}
+
+ul{
+    list-style-type: none;
+    color: white;
+     padding: 0;
+}
+
+li:hover{
+    background: red;
+}
+
+a{
+    text-decoration-line: none;
+    color: white;
+  }
+
+#para{
+height: 200px;
+padding-top: 30px;
+margin: 10px;
+background-image: url("sea.jpg");
+text-align: center;
+font-weight: bold;
+text-align: center;
+}
+

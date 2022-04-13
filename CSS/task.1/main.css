@@ -1,0 +1,31 @@
+/*
+EMs are relative to their parent's font size
+
+REMs are relative to a base font-size*/
+
+p{
+    color: red;
+}
+
+p , div{
+    color: green;
+}
+ div#myDiv > p.mainClass  {
+    color: yellow;
+}
+
+div p {
+    color: blueviolet;
+}
+ input[type="text"].myClass{
+    color: aqua;
+}
+div ~ span{
+    color: brown;
+}
+p.myClass{
+    color :gray;}
+
+div#mydiv{
+        color:orange ;
+    }    
