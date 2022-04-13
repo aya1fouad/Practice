@@ -1,0 +1,16 @@
+# depslib dependency file v1.0
+1607087227 source:d:\iti9\8.data structure and algorithm\day4\lab\main.cpp
+	<iostream>
+	"Graph.h"
+
+1607087472 d:\iti9\8.data structure and algorithm\day4\lab\include\graph.h
+	"LinkedList.h"
+	"Vertex.h"
+
+1607087045 d:\iti9\8.data structure and algorithm\day4\lab\include\linkedlist.h
+	<iostream>
+
+1607087028 d:\iti9\8.data structure and algorithm\day4\lab\include\vertex.h
+	"LinkedList.h"
+	<iostream>
+
